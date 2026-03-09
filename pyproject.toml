@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api_memory_watch"
+version = "0.1.0"
+description = "Memory profiling and leak detection for FastAPI endpoints"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Rudolf Kovalevskiy" }
+]
+keywords = ["fastapi", "memory", "profiling", "leak-detection", "observability"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Framework :: FastAPI",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: System :: Monitoring"
+]
+dependencies = [
+  "fastapi>=0.110",
+  "psutil>=5.9"
+]
+
+[project.urls]
+Homepage = "https://github.com/<your-org-or-user>/api_memory_watch"
+Repository = "https://github.com/<your-org-or-user>/api_memory_watch"
+Issues = "https://github.com/<your-org-or-user>/api_memory_watch/issues"
+
+[tool.setuptools.packages.find]
+include = ["api_memory_watch*"]
+exclude = ["tests*"]

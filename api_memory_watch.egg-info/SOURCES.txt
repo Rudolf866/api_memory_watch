@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+api_memory_watch/__init__.py
+api_memory_watch/config.py
+api_memory_watch/decorator.py
+api_memory_watch/detector.py
+api_memory_watch/route.py
+api_memory_watch/sinks.py
+api_memory_watch.egg-info/PKG-INFO
+api_memory_watch.egg-info/SOURCES.txt
+api_memory_watch.egg-info/dependency_links.txt
+api_memory_watch.egg-info/requires.txt
+api_memory_watch.egg-info/top_level.txt
+tests/test_smoke.py

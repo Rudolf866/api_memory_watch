@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: api_memory_watch
+Version: 0.1.0
+Summary: Memory profiling and leak detection for FastAPI endpoints
+Author: Rudolf Kovalevskiy
+License: MIT
+Project-URL: Homepage, https://github.com/<your-org-or-user>/api_memory_watch
+Project-URL: Repository, https://github.com/<your-org-or-user>/api_memory_watch
+Project-URL: Issues, https://github.com/<your-org-or-user>/api_memory_watch/issues
+Keywords: fastapi,memory,profiling,leak-detection,observability
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi>=0.110
+Requires-Dist: psutil>=5.9
+Dynamic: license-file
