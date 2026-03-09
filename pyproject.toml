@@ -31,9 +31,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/<your-org-or-user>/api_memory_watch"
-Repository = "https://github.com/<your-org-or-user>/api_memory_watch"
-Issues = "https://github.com/<your-org-or-user>/api_memory_watch/issues"
+Homepage = "https://github.com/Rudolf866/api_memory_watch"
+Repository = "https://github.com/Rudolf866/api_memory_watch"
+Issues = "https://github.com/Rudolf866/api_memory_watch"
 
 [tool.setuptools.packages.find]
 include = ["api_memory_watch*"]
