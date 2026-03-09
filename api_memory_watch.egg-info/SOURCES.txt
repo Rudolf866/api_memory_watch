@@ -1,4 +1,5 @@
 LICENSE
+README.md
 pyproject.toml
 api_memory_watch/__init__.py
 api_memory_watch/config.py

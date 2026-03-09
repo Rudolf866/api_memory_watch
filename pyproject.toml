@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "api_memory_watch"
-version = "0.1.0"
+version = "0.1.2"
 description = "Memory profiling and leak detection for FastAPI endpoints"
-readme = "README.md"
+readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
@@ -33,7 +33,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/Rudolf866/api_memory_watch"
 Repository = "https://github.com/Rudolf866/api_memory_watch"
-Issues = "https://github.com/Rudolf866/api_memory_watch"
+Issues = "https://github.com/Rudolf866/api_memory_watch/issues"
 
 [tool.setuptools.packages.find]
 include = ["api_memory_watch*"]
